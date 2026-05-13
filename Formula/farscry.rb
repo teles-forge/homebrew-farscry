@@ -7,7 +7,7 @@ class Farscry < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/teles-forge/farscry/releases/download/v#{version}/farscry-aarch64-apple-darwin.tar.gz"
-      sha256 "PLACEHOLDER_ARM64"
+      sha256 "b394dfcddbd9e33e50f1ee6f44637cb452190e54a7a7d428d80eeedf963c769a"
     end
   end
 
